@@ -1,32 +1,40 @@
 <?php
 header("Content-Type:application/json");
 require "../service/ProductService.php";
+require "../model/Router.php";
+require "../helper/ResponseHelper.php";
+
 
 $fullPath = $_SERVER['REQUEST_URI'];
 $request_method=$_SERVER["REQUEST_METHOD"];
-$endpoint = substr($fullPath, strpos($fullPath, "?") + 1);
+
+$router = new Router($fullPath);
+$router->getRouting();
+$endpoint = $router->endpoint;
 
 switch($request_method)
 {
     case 'GET':
         if ($endpoint == "products")
-            response(200, "Products Found", getProducts());
-        else if(!empty($_GET["id"]))
+            responseBuilder(getProducts());
+        else if($endpoint == "products/{id}")
         {
-            $id=$_GET['id'];
+            $id=$router->id;
             $product = getProduct($id);
-            if(empty($product))
-                response(200,"Product Not Found",NULL);
-            else
-                response(200,"Product Found",$product);
+            responseBuilder($product);
         }
+        else
+            responseBuilder();
         break;
     default:
         // Invalid Request Method
         response(400,"Invalid Request",NULL);
         break;
 }
-
+function responseBuilder($item){
+    $r = findItem($item);
+    response($r[0], $r[1], $r[2]);
+}
 function response($status,$status_message,$data)
 {
     header("HTTP/1.1 ".$status);

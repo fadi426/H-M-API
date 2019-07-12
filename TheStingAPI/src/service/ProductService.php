@@ -1,10 +1,10 @@
 <?php
 require "../model/Product.php";
-$products = [
-    new Product("book",1, "This is a book!", 20),
-    new Product("pen", 2, "This is a pen", 10),
-    new Product("pencil", 3, "This is a pencil", 5),
-];
+require "../model/TheStingScraper.php";
+
+
+$scraper = new TheStingScraper("dsdsd");
+$products = $scraper->scrape();
 
 function getProducts(){
     global $products;

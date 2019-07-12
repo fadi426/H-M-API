@@ -3,16 +3,20 @@
 
 class Product
 {
-    public $name;
     public $id;
-    public $info;
+    public $imageLink;
+    public $link;
+    public $name;
     public $price;
+    public $colors = [];
 
-    function __construct($name, $id, $info, $price){
-        $this->name = $name;
+    function __construct($id,$imageLink, $link, $name, $price, $colors){
         $this->id = $id;
-        $this->info = $info;
+        $this->imageLink = $imageLink;
+        $this->link = $link;
+        $this->name = $name;
         $this->price = $price;
+        $this->colors = $colors;
 }
 
     public function __set($variableName,$value) {
