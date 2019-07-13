@@ -1,10 +1,10 @@
 <?php
 require('../helper/simple_html_dom.php');
-require_once ('../model/TheStingScraper.php');
+require_once('../model/Scraper.php');
 
 
 
-class TheStingScraper
+class Scraper
 {
     public $url;
 
@@ -14,7 +14,7 @@ class TheStingScraper
     }
 
     function scrape(){
-        $url = ('https://www2.hm.com/nl_nl/heren/shop-op-item/jacks-jassen.html');
+        $url = ($this->url);
         $context = stream_context_create(array('http' => array('header' => 'User-Agent: Mozilla compatible')));
         $response = file_get_contents($url, false, $context);
         $html = str_get_html($response);

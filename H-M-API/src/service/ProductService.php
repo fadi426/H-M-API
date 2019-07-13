@@ -1,19 +1,26 @@
 <?php
 require "../model/Product.php";
-require "../model/TheStingScraper.php";
+require "../model/Scraper.php";
+require "../helper/H&mWebLinker.php";
 
+$products = [];
 
-$scraper = new TheStingScraper("dsdsd");
-$products = $scraper->scrape();
+function pullProducts($router){
+    global $products;
+    $hmUrl = getWebsiteLink($router);
+    $scraper = new Scraper($hmUrl);
+    $products = $scraper->scrape();
+}
 
-function getProducts(){
+function getProducts($router){
+    pullProducts($router);
     global $products;
     return $products;
 }
 
-function getProduct($id) {
-    foreach (getProducts() as $product){
-        if ($product->id == $id){
+function getProduct($router) {
+    foreach (getProducts($router) as $product){
+        if ($product->id == $router->id){
             return $product;
         }
     }

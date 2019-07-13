@@ -4,7 +4,6 @@ require "../service/ProductService.php";
 require "../model/Router.php";
 require "../helper/ResponseHelper.php";
 
-
 $fullPath = $_SERVER['REQUEST_URI'];
 $request_method=$_SERVER["REQUEST_METHOD"];
 
@@ -16,13 +15,20 @@ switch($request_method)
 {
     case 'GET':
         if ($endpoint == "products")
-            response(findItem(getProducts()));
-        else if($endpoint == "products/{id}")
-        {
-            $id=$router->id;
-            $product = getProduct($id);
+            response(findItem(getProducts($router)));
+        else if($endpoint == "products/{id}") {
+            $product = getProduct($router);
             response(findItem($product));
         }
+        else if($endpoint == "heren/{id}")
+            response(findItem(getProducts($router)));
+
+        else if($endpoint == "dames/{id}")
+            response(findItem(getProducts($router)));
+
+        else if($endpoint == "divided/{id}")
+            response(findItem(getProducts($router)));
+
         else
             response(invalidEndpoint());
         break;
@@ -40,5 +46,5 @@ function response($r)
     $response['data']= $r[2];
 
     $json_response = json_encode($response, JSON_UNESCAPED_SLASHES);
-    echo $json_response;
+    echo "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd";
 }
