@@ -1,2 +1,2 @@
-# TheStingAPI
-An API for the webshop "The Sting"
+# H-M-API
+An API for the webshop "H&M"
