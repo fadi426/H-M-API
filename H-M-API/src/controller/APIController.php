@@ -16,33 +16,29 @@ switch($request_method)
 {
     case 'GET':
         if ($endpoint == "products")
-            responseBuilder(getProducts());
+            response(findItem(getProducts()));
         else if($endpoint == "products/{id}")
         {
             $id=$router->id;
             $product = getProduct($id);
-            responseBuilder($product);
+            response(findItem($product));
         }
         else
-            responseBuilder();
+            response(invalidEndpoint());
         break;
     default:
         // Invalid Request Method
-        response(400,"Invalid Request",NULL);
+        return response(invalidRequesMethod());
         break;
 }
-function responseBuilder($item){
-    $r = findItem($item);
-    response($r[0], $r[1], $r[2]);
-}
-function response($status,$status_message,$data)
+function response($r)
 {
-    header("HTTP/1.1 ".$status);
+    header("HTTP/1.1 ".$r[0]);
 
-    $response['status']=$status;
-    $response['status_message']=$status_message;
-    $response['data']=$data;
+    $response['status']= $r[0];
+    $response['status_message']= $r[1];
+    $response['data']= $r[2];
 
-    $json_response = json_encode($response);
+    $json_response = json_encode($response, JSON_UNESCAPED_SLASHES);
     echo $json_response;
 }

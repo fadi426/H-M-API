@@ -14,3 +14,11 @@ function findItem($item){
         return [200, "Product Found", $item];
 }
 
+function invalidRequesMethod() {
+    return [400,"Invalid Request",NULL];
+}
+
+function invalidEndpoint(){
+    return [400,"Invalid Endpoint",NULL];
+}
+

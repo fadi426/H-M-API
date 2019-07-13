@@ -38,7 +38,7 @@ class TheStingScraper
             $productName = $itemDetails->find('.link')[0]->plaintext;
 
             // get product price
-            $productPrice = $itemDetails->find('.item-price')[0]->plaintext;
+            $productPrice = str_replace(' ', '', $itemDetails->find('.item-price')[0]->plaintext);
 
             // get product color
             $productColors = [];
