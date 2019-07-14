@@ -3,15 +3,13 @@
 
 class Product
 {
-    public $id;
     public $imageLink;
     public $link;
     public $name;
     public $price;
     public $colors = [];
 
-    function __construct($id,$imageLink, $link, $name, $price, $colors){
-        $this->id = $id;
+    function __construct($imageLink, $link, $name, $price, $colors){
         $this->imageLink = $imageLink;
         $this->link = $link;
         $this->name = $name;

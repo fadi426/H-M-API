@@ -13,7 +13,7 @@ class Router
     }
 
     function getRouting() {
-        $fullEndpoint = substr($this->fullUrl, strpos($this->fullUrl, "?") + 1);
+        $fullEndpoint = substr($this->fullUrl, strpos($this->fullUrl, "php/") + 4);
 
         // return the full path if it doesnt contain a backslash
         if (strpos($fullEndpoint, "/") === false){

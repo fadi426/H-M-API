@@ -14,13 +14,7 @@ $endpoint = $router->endpoint;
 switch($request_method)
 {
     case 'GET':
-        if ($endpoint == "products")
-            response(findItem(getProducts($router)));
-        else if($endpoint == "products/{id}") {
-            $product = getProduct($router);
-            response(findItem($product));
-        }
-        else if($endpoint == "heren/{id}")
+        if($endpoint == "heren/{id}")
             response(findItem(getProducts($router)));
 
         else if($endpoint == "dames/{id}")
@@ -46,5 +40,5 @@ function response($r)
     $response['data']= $r[2];
 
     $json_response = json_encode($response, JSON_UNESCAPED_SLASHES);
-    echo "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd";
+    echo $json_response;
 }

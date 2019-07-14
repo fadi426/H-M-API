@@ -46,7 +46,7 @@ class Scraper
                 $productColors[] = trim(preg_replace('/\t+/', '', $color->plaintext));
             }
 
-            $p = new Product($i,$productImage,$productLink,$productName,$productPrice,$productColors);
+            $p = new Product($productImage,$productLink,$productName,$productPrice,$productColors);
             // push to a list of products
             $products[] = $p;
 

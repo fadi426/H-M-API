@@ -8,6 +8,8 @@ $products = [];
 function pullProducts($router){
     global $products;
     $hmUrl = getWebsiteLink($router);
+    if ($hmUrl == "")
+        return [];
     $scraper = new Scraper($hmUrl);
     $products = $scraper->scrape();
 }
