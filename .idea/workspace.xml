@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78cb33d0-1037-4ef5-9583-1cfa142cca9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H-M-API/src/helper/genderCategories/DividedCategories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H-M-API/src/helper/genderCategories/MenCategories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H-M-API/src/helper/genderCategories/WomanCategories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/H-M-API/src/controller/APIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/H-M-API/src/controller/APIController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H-M-API/src/controller/test.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/H-M-API/src/helper/H&amp;mWebLinker.php" beforeDir="false" afterPath="$PROJECT_DIR$/H-M-API/src/helper/H&amp;mWebLinker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H-M-API/src/helper/ResponseHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/H-M-API/src/helper/ResponseHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H-M-API/src/model/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/H-M-API/src/model/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/H-M-API/src/model/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/H-M-API/src/model/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/H-M-API/src/model/Scraper.php" beforeDir="false" afterPath="$PROJECT_DIR$/H-M-API/src/model/Scraper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/H-M-API/src/service/ProductService.php" beforeDir="false" afterPath="$PROJECT_DIR$/H-M-API/src/service/ProductService.php" afterDir="false" />
@@ -47,17 +38,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/H-M-API/src/controller/APIController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="418">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/H-M-API/src/model/Scraper.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/ResponseHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+            <state relative-caret-position="114">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <element signature="e#7#25#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +68,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/H-M-API/src/model/Router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="456">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/H-M-API/src/service/ProductService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/H-M-API/src/model/Scraper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -83,17 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://F:/xampp/htdocs/TheStingAPI/H-M-API/src/controller/APIController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/xampp/htdocs/TheStingAPI/H-M-API/src/helper/H&amp;mWebLinker.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1022">
-              <caret line="67" column="1" selection-end-line="67" selection-end-column="1" />
+            <state>
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -101,17 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/H&amp;mWebLinker.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/genderCategories/WomanCategories.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            <state relative-caret-position="418">
+              <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -182,17 +176,17 @@
         <option value="$PROJECT_DIR$/H-M-API/src/helper/simple_html_dom.php" />
         <option value="$PROJECT_DIR$/H-M-API/src/controller/test.php" />
         <option value="F:/xampp/htdocs/H-M-API/src/controller/APIController.php" />
-        <option value="$PROJECT_DIR$/H-M-API/src/model/Router.php" />
-        <option value="$PROJECT_DIR$/H-M-API/src/service/ProductService.php" />
         <option value="$PROJECT_DIR$/H-M-API/src/helper/ResponseHelper.php" />
         <option value="F:/xampp/htdocs/TheStingAPI/H-M-API/src/helper/H&amp;mWebLinker.php" />
         <option value="$PROJECT_DIR$/H-M-API/src/helper/genderCategories/DividedCategories.php" />
         <option value="$PROJECT_DIR$/H-M-API/src/helper/genderCategories/MenCategories.php" />
         <option value="$PROJECT_DIR$/H-M-API/src/helper/genderCategories/WomanCategories.php" />
-        <option value="$PROJECT_DIR$/H-M-API/src/helper/H&amp;mWebLinker.php" />
-        <option value="$PROJECT_DIR$/H-M-API/src/controller/APIController.php" />
         <option value="$PROJECT_DIR$/H-M-API/src/model/Product.php" />
+        <option value="$PROJECT_DIR$/H-M-API/src/controller/APIController.php" />
+        <option value="$PROJECT_DIR$/H-M-API/src/helper/H&amp;mWebLinker.php" />
+        <option value="$PROJECT_DIR$/H-M-API/src/model/Router.php" />
         <option value="$PROJECT_DIR$/H-M-API/src/model/Scraper.php" />
+        <option value="$PROJECT_DIR$/H-M-API/src/service/ProductService.php" />
       </list>
     </option>
   </component>
@@ -204,9 +198,9 @@
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP from XAMPP" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="233" />
-    <option name="y" value="97" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="520" />
+    <option name="y" value="59" />
     <option name="width" value="1401" />
     <option name="height" value="1087" />
   </component>
@@ -215,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,14 +246,6 @@
               <item name="TheStingAPI" type="462c0819:PsiDirectoryNode" />
               <item name="H-M-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-              <item name="genderCategories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="H&amp;M-API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheStingAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="H-M-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,6 +259,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,11 +328,12 @@
       <workItem from="1563111755008" duration="173000" />
       <workItem from="1563111938289" duration="10437000" />
       <workItem from="1563122932930" duration="9886000" />
+      <workItem from="1563186865706" duration="1834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96627000" />
+    <option name="totallyTimeSpent" value="98461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,16 +345,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="233" y="97" width="1401" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="2503" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1571838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32914045" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49962714" visible="true" weight="0.29979035" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49962714" weight="0.29979035" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914045" />
@@ -378,11 +365,11 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003728" side_tool="true" weight="0.4245283" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.32914045" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.32914045" />
-      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.32914045" />
+      <window_info anchor="bottom" id="File Transfer" order="14" visible="true" weight="0.32606438" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.053691275" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.02947196" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,13 +385,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/H-M-API/src/service/ProductService.php</url>
-          <line>17</line>
+          <line>22</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/H-M-API/src/controller/APIController.php</url>
-          <line>17</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/H-M-API/src/helper/ResponseHelper.php</url>
@@ -525,20 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H-M-API/src/service/ProductService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/ResponseHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/xampp/htdocs/TheStingAPI/H-M-API/src/helper/ResponseHelper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -553,10 +521,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/genderCategories/MenCategories.php">
+    <entry file="file://F:/xampp/htdocs/TheStingAPI/H-M-API/src/helper/H&amp;mWebLinker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="1273">
+          <caret line="67" column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/genderCategories/WomanCategories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -567,38 +542,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/genderCategories/WomanCategories.php">
+    <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/genderCategories/MenCategories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/H&amp;mWebLinker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/xampp/htdocs/TheStingAPI/H-M-API/src/helper/H&amp;mWebLinker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="67" column="1" selection-end-line="67" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://F:/xampp/htdocs/TheStingAPI/H-M-API/src/controller/APIController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state>
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H-M-API/src/controller/APIController.php">
+    <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/ResponseHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="114">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#7#25#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -611,15 +575,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/H-M-API/src/model/Router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="456">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/H-M-API/src/model/Scraper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+        <state relative-caret-position="912">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H-M-API/src/controller/APIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H-M-API/src/helper/H&amp;mWebLinker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H-M-API/src/service/ProductService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>

@@ -33,6 +33,7 @@ switch($request_method)
 }
 function response($r)
 {
+    //Assemble the Json response
     header("HTTP/1.1 ".$r[0]);
 
     $response['status']= $r[0];
