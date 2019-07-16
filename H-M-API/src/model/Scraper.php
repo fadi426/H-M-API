@@ -1,6 +1,6 @@
 <?php
-require('../helper/simple_html_dom.php');
-require_once('../model/Scraper.php');
+require('helper/simple_html_dom.php');
+require_once('model/Scraper.php');
 
 
 

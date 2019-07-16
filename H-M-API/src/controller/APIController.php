@@ -1,45 +1,27 @@
 <?php
-header("Content-Type:application/json");
-require "../service/ProductService.php";
-require "../model/Router.php";
-require "../helper/ResponseHelper.php";
+require "service/ProductService.php";
+require "helper/ResponseHelper.php";
 
-$fullPath = $_SERVER['REQUEST_URI'];
-$request_method=$_SERVER["REQUEST_METHOD"];
+function redirectToEndpoint($requestMethod, $router){
+    $endpoint = $router->endpoint;
 
-$router = new Router($fullPath);
-$router->getRouting();
-$endpoint = $router->endpoint;
+    switch ($requestMethod) {
+        case 'GET':
+            if ($endpoint == "heren/{id}")
+                return findItem(getProducts($router));
 
-switch($request_method)
-{
-    case 'GET':
-        if($endpoint == "heren/{id}")
-            response(findItem(getProducts($router)));
+            else if ($endpoint == "dames/{id}")
+                return findItem(getProducts($router));
 
-        else if($endpoint == "dames/{id}")
-            response(findItem(getProducts($router)));
+            else if ($endpoint == "divided/{id}")
+                return findItem(getProducts($router));
 
-        else if($endpoint == "divided/{id}")
-            response(findItem(getProducts($router)));
-
-        else
-            response(invalidEndpoint());
-        break;
-    default:
-        // Invalid Request Method
-        return response(invalidRequesMethod());
-        break;
-}
-function response($r)
-{
-    //Assemble the Json response
-    header("HTTP/1.1 ".$r[0]);
-
-    $response['status']= $r[0];
-    $response['status_message']= $r[1];
-    $response['data']= $r[2];
-
-    $json_response = json_encode($response, JSON_UNESCAPED_SLASHES);
-    echo $json_response;
+            else
+                return invalidEndpoint();
+            break;
+        default:
+            // Invalid Request Method
+            return invalidRequesMethod();
+            break;
+    }
 }

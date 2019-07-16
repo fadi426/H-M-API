@@ -1,7 +1,7 @@
 <?php
-require "../model/Product.php";
-require "../model/Scraper.php";
-require "../helper/H&mWebLinker.php";
+require "model/Product.php";
+require "model/Scraper.php";
+require "helper/H&mWebLinker.php";
 
 $products = [];
 
