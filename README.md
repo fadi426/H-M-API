@@ -4,7 +4,7 @@ An API to retrieve product information from the webshop "H&M"
 # How to use
 The root url is https://hmapi.000webhostapp.com/index.php/
 
-The first parameter to put in is the gender of the product category
+The first parameter to put in is the gender of the product category.
 The following genders are supported: 
 -heren (men)
 -dames (woman)
@@ -23,4 +23,4 @@ https://hmapi.000webhostapp.com/index.php/dames/jurk
 This endpoint will retrieve the product information of dresses for the woman gender category.
 
 https://hmapi.000webhostapp.com/index.php/divided/Jeans
-This endpoint will retrieve the product information of jeans for the divided gender category
+This endpoint will retrieve the product information of jeans for the divided gender category.
