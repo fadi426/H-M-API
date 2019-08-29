@@ -2,7 +2,7 @@
 An API to retrieve product information from the webshop "H&M"
 
 # How to use
-The root url is https://hmapi.000webhostapp.com/index.php/
+The root url ishttps://hmapi.azurewebsites.net/index.php/
 
 The first parameter to put in is the gender of the product category.
 The following genders are supported: 
@@ -16,11 +16,11 @@ https://www2.hm.com/nl_nl/index.html
 
 Full examples:
 
-https://hmapi.000webhostapp.com/index.php/heren/schoenen
+https://hmapi.azurewebsites.net/index.php/heren/schoenen
 This endpoint will retrieve the product information of schoes for the men gender category.
 
-https://hmapi.000webhostapp.com/index.php/dames/jurk
+https://hmapi.azurewebsites.net/index.php/dames/jurk
 This endpoint will retrieve the product information of dresses for the woman gender category.
 
-https://hmapi.000webhostapp.com/index.php/divided/Jeans
+https://hmapi.azurewebsites.net/index.php/divided/Jeans
 This endpoint will retrieve the product information of jeans for the divided gender category.
